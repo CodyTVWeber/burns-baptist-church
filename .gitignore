@@ -1,0 +1,9 @@
+.DS_Store
+*.mov
+*.mp4
+*.webm
+*.m4a
+*.mp3
+*.wav
+tmp/
+.whisper/
