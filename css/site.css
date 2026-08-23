@@ -75,19 +75,23 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.75rem 0;
+  padding: 1rem 0;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  flex: 0 1 auto;
+  min-width: 0;
   text-decoration: none;
   color: inherit;
 }
 
 .logo img {
-  height: 2.4rem;
+  height: 4.5rem;
   width: auto;
+  max-width: min(22rem, 100%);
+  background: transparent;
 }
 
 .nav-toggle {
@@ -136,6 +140,10 @@ p {
 }
 
 @media (max-width: 720px) {
+  .logo img {
+    height: 3.4rem;
+  }
+
   .nav-toggle {
     display: inline-block;
   }

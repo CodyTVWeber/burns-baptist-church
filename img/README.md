@@ -3,7 +3,7 @@
 | File | Source | Who / what |
 |---|---|---|
 | `burnsbaptist.png` | https://burnsbaptistchurch.com/wp-content/uploads/2023/08/burnsbaptist.png | Official logo (white-on-black original) |
-| `burnsbaptist-ink.png` | Derived from `burnsbaptist.png` (ffmpeg negate + colorkey) | Same wordmark, ink-on-paper for cream header |
+| `burnsbaptist-ink.png` | Derived from `burnsbaptist.png` (tint `#2A2218`, keep alpha, 2×) | Same wordmark, dark ink on transparent, for the cream header |
 | `bbc-building.jpg` | https://burnsbaptistchurch.com/wp-content/uploads/2023/08/bbc-image.jpg | Brick church, white steeple, parking lot at 2308 Hwy 96 |
 | `terlecki.jpeg` | https://burnsbaptistchurch.com/wp-content/uploads/2023/08/terlecki.jpeg | Pastor Aaron “A.T.” Terlecki and Lori |
 | `grant-family.jpg` | https://burnsbaptistchurch.com/wp-content/uploads/2024/08/IMG-7225-360x540-1.jpg | Grant & Candice Allen and their five children |
