@@ -9,9 +9,9 @@ On a phone, the church-family photos were nearly square and almost a screen tall
 
 | Topic | Choice |
 | --- | --- |
-| Photo shape | 4:3 cards, two across on a phone and four on a wide screen. Rounded corners and a light shadow. |
-| Faces | `object-position: center 22%` so a portrait crop keeps the people. |
-| Leadership | The home cards keep a photo across the top of a rounded card. |
+| Photo shape | 4:3 photos, two across on a phone and four on a wide screen. Corners are only slightly rounded, with no drop shadow. |
+| Faces | `object-position: center 4%` so a portrait crop keeps the people. |
+| Leadership | A light bordered panel. The photo sits inside it with a small corner radius. |
 | Social row | One line of smaller icons and names. |
 | Skip link | Removed from every page. |
 
