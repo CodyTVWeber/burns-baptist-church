@@ -419,6 +419,7 @@ p {
 
 .family-grid {
   grid-template-columns: repeat(2, 1fr);
+  align-items: start;
 }
 
 @media (min-width: 800px) {
@@ -437,8 +438,13 @@ p {
   background: var(--soft);
 }
 
-.family-grid img {
-  aspect-ratio: 3 / 4;
+.family-grid img,
+.yoke-pair img,
+.leader img,
+.staff-teaser img,
+.yoke-feature img {
+  height: auto;
+  object-fit: contain;
 }
 
 .photo-row {
@@ -464,18 +470,16 @@ p {
 
 .yoke-feature img {
   width: 100%;
-  aspect-ratio: 16 / 7;
-  object-fit: cover;
-  object-position: center 30%;
 }
 
 .yoke-pair {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
-.yoke-pair img {
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+@media (min-width: 720px) {
+  .yoke-pair {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .believe {
@@ -529,9 +533,7 @@ p {
 }
 
 .staff-teaser img {
-  aspect-ratio: 4 / 3;
   margin-bottom: 0.75rem;
-  object-position: center 20%;
 }
 
 .staff-teaser h3 {
@@ -619,8 +621,7 @@ p {
 }
 
 .leader img {
-  aspect-ratio: 4 / 3;
-  object-position: center 15%;
+  width: 100%;
 }
 
 .leader h2 {

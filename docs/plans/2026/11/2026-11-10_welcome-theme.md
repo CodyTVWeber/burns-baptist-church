@@ -30,6 +30,7 @@ A church member sent notes and mockups asking for a warmer first impression, the
 
 - Facebook stays `facebook.com/BurnsBaptistChurch/`. That page’s About line is 2308 Hwy 96, Burns, TN. If a different Facebook URL was meant, send it.
 - Kim’s original mission photos replaced the mockup crops. Her missions report corrected the list to Gideons International and “Benevolence (Local needy).” The report’s dollar amounts are not published.
+- A later set of originals replaced the church-family, leadership, and YOKE crops. Pastor A.T. and Lori, Mason and Bailey, the baptism, the stairs group, the Christmas program, and the YOKE gym, room, sign, and fellowship photos are hers. Dr. Grant Allen’s family photo is still the earlier crop. The Wednesday YOKE flyer was not placed on the page: it says “@ 6:30,” and the published window stays 6:00 to 8:00. The page does say doors open at 6:00, the downstairs sanctuary, and food in the Family Life Center. A cracked-screen photo of the YOKE room was not used.
 
 ## Review
 

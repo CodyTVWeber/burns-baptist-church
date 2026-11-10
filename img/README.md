@@ -4,19 +4,21 @@
 |---|---|---|
 | `bbc-logo.png` | Official BBC logo supplied with the November 2026 website notes (white background removed) | Steeple, cross, flame, and BBC wordmark |
 | `church-sunset.jpg` | Church Facebook photo supplied with the November 2026 notes | Building at sunset, white steeple, parking lot |
-| `pastor-at-lori.jpg` | Cropped from the leadership sheet in those notes | Pastor Aaron “A.T.” Terlecki and Lori |
-| `mason-bailey.jpg` | Cropped from the leadership sheet | Youth Pastor Mason Cook and Bailey |
-| `grant-allen-family.jpg` | Cropped from the leadership sheet | Dr. Grant Allen, Candice, and their five children |
-| `family-baptism.jpg` | Cropped from the church-family sheet | Baptism |
-| `family-fellowship.jpg` | Cropped from the church-family sheet | Two women from the church family visiting |
-| `family-shoulders.jpg` | Cropped from the church-family sheet | A dad with his children |
-| `family-gospel-sing.jpg` | Cropped from the church-family sheet | Gospel singing with Josey Clay and friends |
-| `family-group.jpg` | Cropped from the church-family sheet | Group photo on the stairs |
-| `family-program.jpg` | Cropped from the church-family sheet | Children in a church program |
-| `family-kids.jpg` | Cropped from the church-family sheet | Children’s ministry |
-| `yoke-students.jpg` | Cropped from the visit sheet | YOKE group |
-| `yoke-worship.jpg` | Cropped from the visit sheet | YOKE worship night |
-| `yoke-fellowship.jpg` | Cropped from the visit sheet | YOKE fellowship |
+| `pastor-at-lori.jpg` | Original photo from Kim, November 2026 | Pastor Aaron “A.T.” Terlecki and Lori |
+| `mason-bailey.jpg` | Original photo from Kim, November 2026 | Youth Pastor Mason Cook and Bailey |
+| `grant-allen-family.jpg` | Cropped from the leadership sheet | Dr. Grant Allen, Candice, and their five children. Kim has not sent a replacement original. |
+| `family-baptism.jpg` | Original photo from Kim, November 2026 | Baptism |
+| `family-fellowship.jpg` | Original photo from Kim, November 2026 | Two women from the church family |
+| `family-shoulders.jpg` | Original photo from Kim, November 2026 | A dad with his child on his shoulders |
+| `family-gospel-sing.jpg` | Original photo from Kim, November 2026 | A musician leading worship in front of a cross |
+| `family-group.jpg` | Original photo from Kim, November 2026 | Women of the church family on the stairs |
+| `family-program.jpg` | Original photo from Kim, November 2026 | Children in a Christmas program |
+| `family-kids.jpg` | Original photo from Kim, November 2026 | Children gathered in the sanctuary |
+| `family-nativity.jpg` | Original photo from Kim, November 2026 | Two children dressed for the Christmas program |
+| `yoke-students.jpg` | Original photo from Kim, November 2026 | YOKE students and leaders in the gym |
+| `yoke-worship.jpg` | Original photo from Kim, November 2026 | The YOKE room. The title banner at the top of the file she sent was cropped off. |
+| `yoke-sign.jpg` | Original photo from Kim, November 2026 | The lighted YOKE sign. A thin red line at the right edge was cropped off. |
+| `yoke-fellowship.jpg` | Original photo from Kim, November 2026 | YOKE students at a fellowship night |
 | `mission-building.jpg` | Original photo from Kim, November 2026 | Members framing a building on a mission trip |
 | `mission-outreach-team.jpg` | Original photo from Kim, November 2026 | Local outreach team with a family |
 | `mission-cross.jpg` | Original photo from Kim, November 2026 | Four church members in front of a wooden cross |
