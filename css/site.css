@@ -305,8 +305,7 @@ p {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center 42%;
-  border-radius: 1rem;
-  box-shadow: 0 10px 24px rgba(44, 44, 44, 0.12);
+  border-radius: 0.45rem;
 }
 
 @media (min-width: 800px) {
@@ -438,8 +437,7 @@ p {
 .leader img {
   width: 100%;
   height: auto;
-  border-radius: 1rem;
-  box-shadow: 0 10px 24px rgba(44, 44, 44, 0.12);
+  border-radius: 0.45rem;
   background: var(--soft);
 }
 
@@ -516,17 +514,15 @@ p {
 }
 
 .staff-teaser article {
-  background: #fff;
+  background: var(--soft);
   border: 1px solid var(--line);
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: 0 10px 24px rgba(44, 44, 44, 0.1);
-  padding: 0 0.9rem 1rem;
+  border-radius: 0.45rem;
+  padding: 0.75rem 0.75rem 1rem;
 }
 
 .staff-teaser img {
-  width: calc(100% + 1.8rem);
-  margin: 0 -0.9rem 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.35rem;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   object-position: center top;
