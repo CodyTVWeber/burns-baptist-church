@@ -28,9 +28,8 @@ A church member sent notes and mockups asking for a warmer first impression, the
 
 ## Confirm with the church
 
-- “Galbons International” is how that line reads on the mission sheet. It may be a different spelling.
-- The new photos are crops from the mockup sheets, so they are softer than the older full-size files. Originals would replace them cleanly.
-- If the Facebook page they meant is a different URL than the one on burnsbaptistchurch.com, send it. The current link is the Burns, TN page at this address.
+- Facebook stays `facebook.com/BurnsBaptistChurch/`. That page’s About line is 2308 Hwy 96, Burns, TN. If a different Facebook URL was meant, send it.
+- Kim’s original mission photos replaced the mockup crops. Her missions report corrected the list to Gideons International and “Benevolence (Local needy).” The report’s dollar amounts are not published.
 
 ## Review
 

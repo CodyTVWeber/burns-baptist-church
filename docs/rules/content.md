@@ -25,4 +25,4 @@
 - Sermon transcripts live in `docs/research/` for voice/copy only — **never** publish on the public site.
 - Welcome first. The home hero is an invitation (“Welcome to Burns Baptist Church”). The gospel stays on the home page under What We Believe, in plain language, including that people need Jesus.
 - Mission partners are the church-provided list on `mission.html`. Do not add dollar amounts.
-- One line on that list is transcribed as “Galbons International.” Confirm the spelling with the church before treating it as final.
+- The mission list names follow Kim’s missions report. Do not publish the yearly amounts from that report.

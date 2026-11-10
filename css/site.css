@@ -443,6 +443,7 @@ p {
 
 .photo-row {
   grid-template-columns: repeat(2, 1fr);
+  align-items: start;
 }
 
 @media (min-width: 800px) {
@@ -452,7 +453,9 @@ p {
 }
 
 .photo-row img {
-  aspect-ratio: 1;
+  height: auto;
+  object-fit: contain;
+  background: var(--soft);
 }
 
 .yoke-feature {

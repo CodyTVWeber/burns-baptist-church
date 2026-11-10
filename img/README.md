@@ -17,10 +17,10 @@
 | `yoke-students.jpg` | Cropped from the visit sheet | YOKE group |
 | `yoke-worship.jpg` | Cropped from the visit sheet | YOKE worship night |
 | `yoke-fellowship.jpg` | Cropped from the visit sheet | YOKE fellowship |
-| `mission-building.jpg` | Cropped from the On Mission sheet | Members building on a mission trip |
-| `mission-outreach-team.jpg` | Cropped from the On Mission sheet | Outreach team |
-| `mission-cross.jpg` | Cropped from the On Mission sheet | Members in front of a wooden cross |
-| `mission-gospel.jpg` | Cropped from the On Mission sheet | Members sharing the Gospel |
+| `mission-building.jpg` | Original photo from Kim, November 2026 | Members framing a building on a mission trip |
+| `mission-outreach-team.jpg` | Original photo from Kim, November 2026 | Local outreach team with a family |
+| `mission-cross.jpg` | Original photo from Kim, November 2026 | Four church members in front of a wooden cross |
+| `mission-gospel.jpg` | Original photo from Kim, November 2026 | Members sharing the Gospel along a road |
 | `burnsbaptist.png` | https://burnsbaptistchurch.com/wp-content/uploads/2023/08/burnsbaptist.png | Earlier wordmark. Not used in the current header. |
 | `burnsbaptist-ink.png` | Derived from `burnsbaptist.png` | Earlier header mark. Not used in the current header. |
 | `bbc-building.jpg` | https://burnsbaptistchurch.com/wp-content/uploads/2023/08/bbc-image.jpg | Daytime building photo. Kept on file; the sunset photo is the one on the pages. |
