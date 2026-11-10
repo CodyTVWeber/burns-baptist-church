@@ -34,7 +34,7 @@ A church member sent notes and mockups asking for a warmer first impression, the
 
 ## Review
 
-- Home, Visit, About, Mission, and 404 on a phone width and a desktop width.
+- Home, Visit, About, Mission, and 404 on a phone width (320 and 390) and a desktop width. Narrow screens use one photo column, full-width buttons, and leadership photos cropped to the faces so the names stay with the pictures. Nothing scrolls sideways.
 - Menu opens and closes. Phone and email are not in the header.
 - Plan Your Visit, What We Believe, Get Directions, and the mission list are reachable.
 - Address stays 2308 Hwy 96. No 548 Hillview. No 2300 as this church.
