@@ -22,9 +22,10 @@ node --check js/site.js
 
 | File | Role |
 |---|---|
-| `index.html` | Home — gospel, people, times, staff |
-| `visit.html` | Visit — times, map, what to expect |
-| `about.html` | About — staff, 2015 merge story |
+| `index.html` | Home — welcome, times, church family, what we believe |
+| `visit.html` | Visit — directions, what to expect, children’s ministry, YOKE |
+| `about.html` | About — church leadership and the 2015 story |
+| `mission.html` | On Mission — photos and ministries we support |
 | `404.html` | Simple not-found |
 
 Live (after Pages enable): https://codytvweber.github.io/burns-baptist-church/
