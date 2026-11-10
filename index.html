@@ -2,88 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Burns Baptist Church | Burns, TN</title>
-  <meta name="description" content="Burns Baptist Church — a faith family on Hwy 96 in Burns, TN. You need Jesus. Sunday School 9:00, worship 10:00. Pastor Aaron “A.T.” Terlecki.">
+  <meta name="description" content="Welcome to Burns Baptist Church at 2308 Hwy 96, Burns, TN. Sunday School 9:00 AM, worship 10:00 AM. Pastor Aaron “A.T.” Terlecki.">
+  <meta name="theme-color" content="#a40c16">
+  <link rel="icon" href="img/bbc-logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,560;0,9..144,650;1,9..144,560&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="index.html"><img src="img/burnsbaptist-ink.png" alt="Burns Baptist Church" width="600" height="150"></a>
+      <a class="logo" href="index.html" aria-label="Burns Baptist Church">
+        <img src="img/bbc-logo.png" alt="" width="456" height="520">
+        <span class="logo-name">Burns Baptist<br>Church</span>
+      </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <ul>
           <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="visit.html">Visit</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="https://paypal.me/burnsbaptistchurch" target="_blank" rel="noopener noreferrer">Give</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="https://paypal.me/burnsbaptistchurch" target="_blank" rel="noopener noreferrer">Give<span class="sr-only"> (opens in a new tab)</span></a></li>
         </ul>
       </nav>
     </div>
-    <p class="wrap header-contact">
-      <a href="tel:+16154413378">615-441-3378</a>
-      <span aria-hidden="true">·</span>
-      <a href="mailto:burnsbaptistclerk@gmail.com">burnsbaptistclerk@gmail.com</a>
-    </p>
   </header>
 
-  <main>
+  <main id="main">
     <section class="wrap hero">
       <div class="hero-copy">
-        <p class="hero-kicker">Burns, Tennessee</p>
-        <h1>You need Jesus.</h1>
-        <p class="hero-sub">Burns Baptist Church — a faith family on the hill off Hwy 96. Loving God. Loving people. Making disciples.</p>
+        <h1><span class="welcome-kicker">Welcome to</span> Burns Baptist Church</h1>
+        <p class="hero-lead">Growing in faith. Sharing the Gospel. Serving one another.</p>
+        <p>At Burns Baptist Church, we believe in the power of God’s Word, the importance of fellowship, and sharing the hope found in Jesus Christ. Whether you’re visiting for the first time or searching for a church home, we invite you to worship and grow with us.</p>
+        <p class="motto">Loving God. Loving People. Making Disciples.</p>
         <p class="hero-actions">
-          <a class="btn" href="visit.html">Come this Sunday</a>
-          <a class="btn btn-ghost" href="#gospel">The gospel</a>
+          <a class="btn" href="visit.html">Plan Your Visit</a>
+          <a class="btn btn-ghost" href="#believe">What We Believe</a>
         </p>
       </div>
       <div class="hero-photo">
-        <img src="img/bbc-building.jpg" alt="Burns Baptist Church building at 2308 Hwy 96, Burns, TN" width="1024" height="1024">
+        <img src="img/church-sunset.jpg" alt="Burns Baptist Church at sunset, the white steeple above the parking lot at 2308 Hwy 96" width="1080" height="554">
       </div>
     </section>
 
-    <section class="times" aria-label="Service times">
-      <div class="wrap times-grid">
-        <div>
-          <h2>Sunday</h2>
-          <p>Sunday School 9:00<br>Worship 10:00</p>
-        </div>
-        <div>
-          <h2>Wednesday</h2>
-          <p>Worship 6:30<br>Kids Connection 6:30</p>
-        </div>
-        <div>
-          <h2>YOKE (Youth)</h2>
-          <p>Wednesdays 6:00–8:00<br>Youth Pastor Mason Cook</p>
+    <section class="times" aria-labelledby="times-title">
+      <div class="wrap">
+        <h2 id="times-title" class="sr-only">Service times</h2>
+        <div class="times-grid">
+          <article class="time-card">
+            <h3>Sunday</h3>
+            <p>Sunday School 9:00 AM<br>Worship 10:00 AM</p>
+          </article>
+          <article class="time-card">
+            <h3>Wednesday</h3>
+            <p>Worship 6:30 PM<br>Kids Connection 6:30 PM</p>
+          </article>
+          <article class="time-card">
+            <h3>YOKE (Youth)</h3>
+            <p>Wednesdays 6:00 to 8:00 PM<br>Youth Pastor Mason Cook</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap">
-        <h2 class="section-title">Our people</h2>
-        <p class="lede">Kids everywhere. Large families. A country church that actually knows each other. We are a faith family that passionately believes in the work of our ministry.</p>
-        <div class="people-strip" aria-label="Photos of church family">
-          <img class="wide span-2" src="img/missionary-guest.jpg" alt="Sunday morning in the Burns Baptist sanctuary" width="640" height="360">
-          <img class="wide span-2" src="img/sanctuary-pastor.jpg" alt="Pastor A.T. Terlecki speaking in the sanctuary" width="640" height="360">
-          <img src="img/camp-yoke-group.jpg" alt="YOKE / church camp group outdoors" width="360" height="640">
-          <img src="img/camp-yoke-pushups.jpg" alt="YOKE / church camp — push-ups in the field" width="360" height="640">
-          <img class="wide span-2" src="img/sanctuary-altar.jpg" alt="Congregation at the altar in the Burns Baptist sanctuary" width="640" height="360">
-          <img class="wide span-2" src="img/bbc-building.jpg" alt="Burns Baptist Church building at 2308 Hwy 96" width="1024" height="1024">
+        <h2 class="section-title">Our Church Family</h2>
+        <p class="lede">At Burns Baptist Church, we are a church family united by our faith in Jesus Christ. We gather to worship, study God’s Word, encourage one another, and share His love with our community. Whether you’re visiting for the first time or searching for a church home, we warmly invite you to join us.</p>
+        <div class="family-grid">
+          <img src="img/family-baptism.jpg" alt="A baptism at Burns Baptist Church" width="901" height="1600">
+          <img src="img/family-fellowship.jpg" alt="Friends from the church family together" width="1200" height="1600">
+          <img src="img/family-shoulders.jpg" alt="A dad with his child on his shoulders at church" width="1004" height="1415">
+          <img src="img/family-gospel-sing.jpg" alt="A musician leading worship in front of a cross" width="768" height="1024">
+          <img src="img/family-group.jpg" alt="Women of the church family gathered on the stairs" width="1080" height="810">
+          <img src="img/family-program.jpg" alt="Children dressed for a Christmas program" width="1156" height="868">
+          <img src="img/family-kids.jpg" alt="Children and leaders gathered in the sanctuary" width="960" height="720">
+          <img src="img/family-nativity.jpg" alt="Two children dressed for the Christmas program" width="868" height="1156">
         </div>
       </div>
     </section>
 
-    <section class="section gospel" id="gospel">
-      <div class="wrap gospel-grid">
+    <section class="section believe" id="believe">
+      <div class="wrap believe-grid">
         <div>
-          <h2 class="section-title">The gospel, plain</h2>
-          <p class="lede">Religion won’t save you. A good family won’t save you. You need Jesus.</p>
+          <h2 class="section-title">What We Believe</h2>
+          <p class="lede">We believe the Bible is God’s Word, and that the hope of every person is Jesus Christ.</p>
         </div>
         <div>
           <ol>
@@ -92,90 +100,79 @@
             <li><strong>He rose again.</strong> On the third day He was raised. If anyone is in Christ, he is a new creation.</li>
             <li><strong>Come to Him.</strong> Place your faith in Jesus as Lord and Savior. Confess Him. Live no longer for yourself, but for Him who died and rose again.</li>
           </ol>
-          <p>That love of Christ should compel us — not head knowledge, not church titles. Him.</p>
+          <p>You need Jesus. His love should compel us — not head knowledge, and not a church title. Him.</p>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap">
-        <h2 class="section-title">Ministries</h2>
-        <div class="ministries">
-          <article class="card">
-            <h3>Sunday School</h3>
-            <p>9:00 Sunday mornings. Open the Word together before worship.</p>
-          </article>
-          <article class="card">
-            <h3>YOKE</h3>
-            <p>Youth ministry Wednesdays 6:00–8:00 with Mason Cook. Students who love Jesus and each other.</p>
-          </article>
-          <article class="card">
-            <h3>Kids Connection</h3>
-            <p>Wednesday 6:30. Kids learning the gospel while the church gathers.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap">
-        <h2 class="section-title">Staff</h2>
-        <div class="staff-grid">
-          <article class="staff-card">
-            <img src="img/terlecki.jpeg" alt="Pastor Aaron A.T. Terlecki and Lori" width="360" height="360">
+        <h2 class="section-title">Church Leadership</h2>
+        <p class="lede">We would love for you to know the people who serve our church family before you ever walk in.</p>
+        <div class="staff-teaser">
+          <article>
+            <img src="img/pastor-at-lori.jpg" alt="Pastor A.T. Terlecki and his wife, Lori" width="720" height="960">
             <p class="role">Pastor</p>
             <h3>Aaron “A.T.” Terlecki</h3>
-            <p>Loves and serves the Lord and people. Know Jesus. Bring Him glory.</p>
           </article>
-          <article class="staff-card no-photo">
+          <article>
+            <img src="img/mason-bailey.jpg" alt="Youth Pastor Mason Cook and his wife, Bailey" width="682" height="1180">
             <p class="role">Youth Pastor</p>
             <h3>Mason Cook</h3>
-            <p>Leads YOKE. DCHS ’20, UT Martin ’23. On staff since April 2023.</p>
           </article>
-          <article class="staff-card">
-            <img src="img/grant-family.jpg" alt="Grant Allen, Candice, and their five children" width="360" height="540">
-            <p class="role">Worship</p>
-            <h3>Grant Allen</h3>
-            <p>With Candice and their five kids. What happens on the hill is at the center of their life.</p>
+          <article>
+            <img src="img/grant-allen-family.jpg" alt="Dr. Grant Allen with Candice and their five children" width="252" height="189">
+            <p class="role">Worship Minister</p>
+            <h3>Dr. Grant Allen</h3>
           </article>
         </div>
+        <p style="margin-top: 1.1rem;"><a class="btn" href="about.html">Meet our church leadership</a></p>
       </div>
     </section>
 
-    <section class="cta-band">
+    <section class="invite">
       <div class="wrap">
-        <h2 class="section-title">Come sit with us</h2>
-        <p>Parking lot, foyer, sanctuary — country church on Hwy 96. You’re welcome.</p>
-        <a class="btn" href="visit.html">Plan your visit</a>
+        <h2>We Invite You to Worship With Us</h2>
+        <p>Whether you’re visiting for the first time or searching for a church home, we would love for you to join us. Come worship, grow in faith, and experience the fellowship of our church family.</p>
+        <a class="btn" href="visit.html">Plan Your Visit</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <h2>Burns Baptist Church</h2>
-        <p>2308 Hwy 96<br>Burns, TN 37029</p>
-        <p><a href="tel:+16154413378">615-441-3378</a><br>
-        <a href="mailto:burnsbaptistclerk@gmail.com">burnsbaptistclerk@gmail.com</a></p>
-        <p class="motto">Loving God. Loving People. Making Disciples.</p>
+    <div class="wrap">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="img/bbc-logo.png" alt="" width="456" height="520"></div>
+        <div>
+          <h2>Burns Baptist Church</h2>
+          <p>2308 Hwy 96<br>Burns, TN 37029</p>
+        </div>
       </div>
-      <div>
-        <h2>Give</h2>
-        <ul>
-          <li>Foyer boxes on Sunday</li>
-          <li>Mail: 2308 TN-96, Burns, TN 37029</li>
-          <li><a href="https://paypal.me/burnsbaptistchurch" target="_blank" rel="noopener noreferrer">PayPal</a></li>
-        </ul>
+      <div class="footer-grid">
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+16154413378">615-441-3378</a></li>
+            <li><a href="mailto:burnsbaptistclerk@gmail.com">burnsbaptistclerk@gmail.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Give</h3>
+          <ul>
+            <li>Foyer boxes on Sunday</li>
+            <li>Mail to the church address</li>
+            <li><a href="https://paypal.me/burnsbaptistchurch" target="_blank" rel="noopener noreferrer">PayPal</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h2>Connect</h2>
-        <ul>
-          <li><a href="https://www.facebook.com/BurnsBaptistChurch/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-          <li><a href="https://www.youtube.com/@burnsbaptistchurch-burnstn1436" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="visit.html">Visit</a></li>
+      <div style="margin-top: 1.3rem;">
+        <h3>Connect With Us</h3>
+        <ul class="socials">
+          <li><a href="https://www.facebook.com/BurnsBaptistChurch/" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></svg></span>Facebook</a></li>
+          <li><a href="https://www.instagram.com/burnsbaptistchurch/" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 4.6A4.4 4.4 0 1 0 16.4 12 4.4 4.4 0 0 0 12 7.6zm6.1-.9a1 1 0 1 0 1 1 1 1 0 0 0-1-1zM12 9.4A2.6 2.6 0 1 1 9.4 12 2.6 2.6 0 0 1 12 9.4z"/></svg></span>Instagram</a></li>
+          <li><a href="https://www.youtube.com/@burnsbaptistchurch-burnstn1436" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 12.2s0-3.2-.4-4.6a3 3 0 0 0-2.1-2.1C18.9 5 12 5 12 5s-6.9 0-8.5.5a3 3 0 0 0-2.1 2.1C1 9 1 12.2 1 12.2s0 3.2.4 4.6a3 3 0 0 0 2.1 2.1C5.1 19.4 12 19.4 12 19.4s6.9 0 8.5-.5a3 3 0 0 0 2.1-2.1c.4-1.4.4-4.6.4-4.6zM9.8 15.5v-6.6l6.2 3.3z"/></svg></span>YouTube</a></li>
         </ul>
+        <p class="footer-note">Follow us for church news, announcements, upcoming events, and schedule changes.</p>
       </div>
     </div>
   </footer>
