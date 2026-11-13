@@ -7,3 +7,14 @@
 *.wav
 tmp/
 .whisper/
+.playwright-mcp/
+
+# Local media / downloads (keep out of git)
+tmp/
+*.mp4
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.part
