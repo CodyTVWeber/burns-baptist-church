@@ -302,16 +302,8 @@ p {
 
 .hero-photo img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  object-position: center 42%;
+  height: auto;
   border-radius: 0.45rem;
-}
-
-@media (min-width: 800px) {
-  .hero-photo img {
-    aspect-ratio: 4 / 3;
-  }
 }
 
 .btn {
@@ -439,28 +431,17 @@ p {
   height: auto;
   border-radius: 0.45rem;
   background: var(--soft);
-}
-
-.family-grid img,
-.photo-row img,
-.yoke-pair img {
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center 4%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .yoke-feature {
   margin: 0.4rem 0 0.85rem;
 }
 
-.yoke-feature img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  object-position: center 30%;
-}
-
 .yoke-pair {
   grid-template-columns: 1fr;
+  align-items: start;
 }
 
 @media (min-width: 720px) {
@@ -505,6 +486,7 @@ p {
 .staff-teaser {
   display: grid;
   gap: 0.85rem;
+  align-items: start;
 }
 
 @media (min-width: 720px) {
@@ -521,11 +503,12 @@ p {
 }
 
 .staff-teaser img {
+  width: 100%;
+  height: auto;
   margin-bottom: 0.75rem;
   border-radius: 0.35rem;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center top;
+  object-fit: contain;
+  object-position: center;
 }
 
 .staff-teaser h3 {
@@ -614,18 +597,9 @@ p {
 
 .leader img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center top;
-}
-
-@media (min-width: 720px) {
-  .leader img {
-    aspect-ratio: auto;
-    max-height: 32rem;
-    object-fit: contain;
-    object-position: center top;
-  }
+  height: auto;
+  object-fit: contain;
+  object-position: center;
 }
 
 .leader h2 {

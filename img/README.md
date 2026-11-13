@@ -6,11 +6,11 @@
 | `church-sunset.jpg` | Church Facebook photo supplied with the November 2026 notes | Building at sunset, white steeple, parking lot |
 | `pastor-at-lori.jpg` | Original photo from Kim, November 2026 | Pastor Aaron “A.T.” Terlecki and Lori |
 | `mason-bailey.jpg` | Original photo from Kim, November 2026 | Youth Pastor Mason Cook and Bailey |
-| `grant-allen-family.jpg` | Cropped from the leadership sheet | Dr. Grant Allen, Candice, and their five children. Kim has not sent a replacement original. |
+| `grant-allen-family.jpg` | Family photo supplied with the November 13, 2026 meeting notes | Dr. Grant Allen, Candice, and their five children. Replaces the earlier leadership-sheet crop. |
 | `family-baptism.jpg` | Original photo from Kim, November 2026 | Baptism |
 | `family-fellowship.jpg` | Original photo from Kim, November 2026 | Two women from the church family |
 | `family-shoulders.jpg` | Original photo from Kim, November 2026 | A dad with his child on his shoulders |
-| `family-gospel-sing.jpg` | Original photo from Kim, November 2026 | A musician leading worship in front of a cross |
+| `family-gospel-sing.jpg` | Original photo from Kim, November 2026 | Josey Clay, Pastor A.T.’s son, leading worship with a guitar |
 | `family-group.jpg` | Original photo from Kim, November 2026 | Women of the church family on the stairs |
 | `family-program.jpg` | Original photo from Kim, November 2026 | Children in a Christmas program |
 | `family-kids.jpg` | Original photo from Kim, November 2026 | Children gathered in the sanctuary |
