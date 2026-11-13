@@ -62,6 +62,8 @@ h3 {
   line-height: 1.15;
   margin: 0 0 0.55em;
   text-wrap: balance;
+  font-optical-sizing: none;
+  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 72;
 }
 
 p {
@@ -566,6 +568,8 @@ p {
   font-family: var(--display);
   font-style: italic;
   font-weight: 560;
+  font-optical-sizing: none;
+  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 72;
   font-size: clamp(1.25rem, 2.6vw, 1.7rem);
   line-height: 1.35;
   margin: 0 0 0.7rem;
@@ -667,10 +671,56 @@ p {
   max-width: 42rem;
 }
 
+.ministry-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+@media (min-width: 720px) {
+  .ministry-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ministry-grid article {
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: #fff;
+  padding: 1rem 1.05rem 0.35rem;
+}
+
+.ministry-grid h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.service-list {
+  list-style: none;
+  margin: 0.4rem 0 1rem;
+  padding: 0;
+}
+
+.service-list li {
+  border-top: 1px solid var(--line);
+  padding: 0.85rem 0 0.7rem;
+}
+
+.service-list a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.service-list p {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+}
+
 .mission-hero h1 {
   font-family: var(--display);
   font-style: italic;
   font-weight: 560;
+  font-optical-sizing: none;
+  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 72;
   font-size: clamp(2.6rem, 7vw, 4.2rem);
   color: var(--bbc);
   text-align: center;
