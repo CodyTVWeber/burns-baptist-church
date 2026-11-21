@@ -2,7 +2,7 @@
 
 Reviewed November 20, 2026. This note is source material. It is not linked from the public pages.
 
-The public home page uses only the items under “Published.” Past dates are described as past. The church website calendar is still empty, so nothing was copied from that list.
+The public home page describes regular gatherings in general terms. It does not list this year’s dates. The church website calendar is still empty, so nothing was copied from that list.
 
 ## Sources checked
 
@@ -29,19 +29,23 @@ Facebook About also names Pastor Brother Aaron Terlecki and Youth Pastor Brother
 
 ## Published
 
-| Offering | What the source says | Where it went |
+The home page names the gathering and what it is like. Dates below are the evidence, not the public wording.
+
+| Offering | What the source says | Public wording |
 |---|---|---|
-| Church camp | YouTube titles from this channel: “Church Camp July 2020” (https://www.youtube.com/watch?v=2U70_BR-4pQ), “Church Camp Skit 2025” (https://www.youtube.com/watch?v=y1_TKBML7Gs), “Church Camp Skit 2026” (https://www.youtube.com/watch?v=C55TamJVDNs). Faithlife has a bulletin titled “Burns Baptist Church Camp Worship 2026.” No camp dates or location were posted with those titles. | Home, “Through the Year,” as recordings. |
-| Vacation Bible School, 2026 | AllEvents listing for Burns Baptist Church at 2308 Hwy 96. The flyer text says “BBC VBS 2026 - ILLUMINATION STATION,” May 31–June 4, nightly 5:30–8:15 PM, rising kindergarten through 6th grade, free, with worship, games, music, and crafts. The AllEvents page title says “Imagination Station,” which is not the name in the flyer text. | Home, in the past tense, using Illumination Station. |
-| Winter Wonderland Market | Facebook event https://www.facebook.com/events/960323716432644/ at 2308 Hwy 96. Saturday, December 12, 2026, 10:00 AM–3:00 PM CST. “Shopping, Photo Ops, Kids Activities, Special Guests AND MORE!” Host: Jennifer Villareal Jones. The place description matches the church website line about a faith family. | Home, as the announced date. |
-| Thanksgiving boxes | Official Facebook page, November 18, 2026: “Don't forget to donate canned goods for our Thanksgiving boxes & The Help Center.” | Home, dated, with a link to the page. |
+| Church camp | YouTube titles from this channel: “Church Camp July 2020,” “Church Camp Skit 2025,” “Church Camp Skit 2026.” Faithlife bulletin titled “Burns Baptist Church Camp Worship 2026.” No camp dates or location were posted with those titles. | Church camp, with a link to the YouTube channel. |
+| Vacation Bible School | AllEvents listing for Burns Baptist Church at 2308 Hwy 96. Flyer text: “BBC VBS 2026 - ILLUMINATION STATION,” May 31–June 4, nightly 5:30–8:15 PM, rising kindergarten through 6th grade, free, worship, games, music, and crafts. The AllEvents title says “Imagination Station,” which is not the name in the flyer text. | A free Vacation Bible School for children. The 2026 theme and dates stay off the page. |
+| No Fright Kids Night | Facebook event by Burns Baptist Church at 2308 Hwy 96, October 31, 2026, 5:00–8:00 PM: free, games, food, candy, costumes welcome. https://www.facebook.com/events/1069544529127169/ | The name and what the evening is. The date stays off the page. |
+| Holiday market | Christmas Market, December 13, 2025, and Winter Wonderland Market, December 12, 2026, both at 2308 Hwy 96. Shopping, photo opportunities, kids’ activities, special guests. The 2025 market said proceeds went to YOKE. The two years use different names. | “Holiday market,” without a date, a single year’s name, or a claim that proceeds always go to YOKE. |
+| Christmas program | Church photos `family-program.jpg` and `family-nativity.jpg`, children dressed for a Christmas program. | Children dress for a Christmas program and the church family gathers. |
+| Mission trips | The mission page, from the church’s partner list, including the Ensenada and Nepal trips. | A card that links to `mission.html`. |
 
 ## Seen and kept off the public page
 
 | Item | Why it stayed here |
 |---|---|
-| No Fright Kids Night, Saturday, October 31, 2026, 5:00–8:00 PM | Facebook event by Burns Baptist Church at 2308 Hwy 96: free, games, food, candy, costumes welcome. That date has passed. One year is not enough to call it a yearly program. https://www.facebook.com/events/1069544529127169/ |
-| BBC Christmas Market, Saturday, December 13, 2025, 10:00 AM–3:00 PM | Facebook event at 2308 Hwy 96. Over 20 vendors, concessions, door prizes and vendor bingo, photo opportunity with surprise guests. Proceeds to YOKE. Past. The 2026 market has a different name, so it was not labeled “annual.” https://www.facebook.com/events/760866519981359/ |
+| Thanksgiving boxes, November 18, 2026 | One Facebook request for canned goods for Thanksgiving boxes and The Help Center. A single dated ask, not a standing yearly gathering. |
+| BBC Christmas Market and Winter Wonderland dates | Used only as evidence for the holiday-market card. |
 | Fundraiser yardsale, February 27, 2026, 8:00 AM–2:00 PM, and February 28, 2026, 7:00 AM–12:00 PM | AllEvents, organized by Burns Baptist Church at 2308 Highway 96. Clothing, toys, tools, books, and household items. Past. |
 | Spring Craft and Vendor Event, Saturday, April 2, 2022, 10:00 AM–5:00 PM | Facebook event at 2308 Hwy 96. Handmade crafts, food, silent auction. Too old to present as something the church currently offers. https://www.facebook.com/events/1716748775190565/ |
 | Church website events page | Still says there is no event. |
