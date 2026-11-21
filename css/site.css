@@ -8,7 +8,7 @@
   --line: #e4e4e4;
   --soft: #f6f6f6;
   --max: 68rem;
-  --display: "Fraunces", Georgia, serif;
+  --display: "Lora", Georgia, serif;
   --body: "Source Sans 3", system-ui, sans-serif;
 }
 
@@ -58,12 +58,10 @@ h1,
 h2,
 h3 {
   font-family: var(--display);
-  font-weight: 560;
+  font-weight: 600;
   line-height: 1.15;
   margin: 0 0 0.55em;
   text-wrap: balance;
-  font-optical-sizing: none;
-  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 72;
 }
 
 p {
@@ -255,7 +253,7 @@ p {
   display: block;
   color: var(--ink);
   font-size: 0.58em;
-  font-weight: 560;
+  font-weight: 600;
   margin-bottom: 0.12em;
 }
 
@@ -567,9 +565,7 @@ p {
 .scripture p {
   font-family: var(--display);
   font-style: italic;
-  font-weight: 560;
-  font-optical-sizing: none;
-  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 72;
+  font-weight: 600;
   font-size: clamp(1.25rem, 2.6vw, 1.7rem);
   line-height: 1.35;
   margin: 0 0 0.7rem;
@@ -694,33 +690,60 @@ p {
   margin-bottom: 0.3rem;
 }
 
-.service-list {
-  list-style: none;
-  margin: 0.4rem 0 1rem;
-  padding: 0;
-}
-
-.service-list li {
-  border-top: 1px solid var(--line);
-  padding: 0.85rem 0 0.7rem;
-}
-
-.service-list a {
-  font-weight: 700;
+.connect-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   text-decoration: none;
+  color: var(--ink);
+  border: 1px solid #ddd;
+  border-radius: 0.45rem;
+  overflow: hidden;
+  background: #fff;
 }
 
-.service-list p {
-  margin: 0.2rem 0 0;
-  color: var(--muted);
+.connect-card:hover {
+  border-color: var(--bbc);
+  color: var(--ink);
+}
+
+.connect-card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin: 0;
+  background: var(--bbc);
+  color: #fff;
+  font-family: var(--body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.7rem 0.75rem;
+}
+
+.connect-card:hover h3 {
+  background: var(--bbc-dark);
+}
+
+.connect-card svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  flex: 0 0 auto;
+}
+
+.connect-card p {
+  margin: 0;
+  text-align: center;
+  padding: 1rem 0.9rem 1.1rem;
 }
 
 .mission-hero h1 {
   font-family: var(--display);
   font-style: italic;
-  font-weight: 560;
-  font-optical-sizing: none;
-  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 72;
+  font-weight: 600;
   font-size: clamp(2.6rem, 7vw, 4.2rem);
   color: var(--bbc);
   text-align: center;
