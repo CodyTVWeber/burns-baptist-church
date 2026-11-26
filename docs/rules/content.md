@@ -29,3 +29,6 @@
 - Do not add an events list from the church website. Its events page currently says there is no event. Past dates are not upcoming.
 - Recent services may be linked from the YouTube channel `@burnsbaptistchurch-burnstn1436` when the upload is current. Label them as recordings, not as events to attend. A sermon title may be used only when the church posted that title for the same service.
 - The mission list names follow Kim’s missions report. Do not publish the yearly amounts from that report.
+- Sunday School has classes for all ages. That sentence lives on the home ministries section. The source is the church’s own Faithlife about text.
+- Baptisms are held in worship services. That sentence lives on the visit page. The sources are the church baptism photo and baptism services on the church YouTube channel. Do not add a baptism schedule.
+- Do not publish May Days, Team Kids, or Misión Hispana de Dickson. Do not publish 615-441-4951 or atfollowhard@gmail.com. See `docs/research/activities-2026.md`.
