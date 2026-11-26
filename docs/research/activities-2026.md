@@ -53,3 +53,16 @@ The home page names the gathering and what it is like. Dates below are the evide
 | Faithlife phone | The bulletin snippet shows 615-441-4951. The published phone stays 615-441-3378. |
 | Directory hours on churchesinusa.com | A third-party guide lists Wednesday 6:30–7:45 PM. That window is not on the church’s own pages. |
 | Ballroom class post | A Facebook group post was gauging interest. It is not a class the church announced. |
+
+## Follow-up, November 26, 2026
+
+Checked again for lasting facts that were not already on the pages. Dated service titles were not copied.
+
+| Source | What it says | Where it went |
+|---|---|---|
+| https://faithlife.com/burnsbaptistchurch/about | Church text: many Sunday School classes for all ages, family and friendships in the teachings of the Lord, and YOKE for youth. Aaron Terlecki is listed as a group administrator. | “Sunday School has classes for all ages” on the home ministries section only. The family and YOKE lines were already on the site. |
+| Church YouTube streams, `@burnsbaptistchurch-burnstn1436` | Hundreds of Sunday and Wednesday recordings. Separate titles for baptisms in 2020 and 2021, plus the November 2026 baptism photo. One title, “2025 Christmas Program.” | “Baptisms are held in those services” on the visit page only. No dates. The Christmas program was already on the home page. |
+| https://burnsbaptistchurch.com/wp-json/wp/v2/pages | Two pages only: the home page and an events page that still has no event. Staff and time copy matches what this site already uses, except the stale YOKE window. | Nothing new copied. |
+| JST Baptist Association church list, https://www.jstba.com/churchesd7372261 | Burns Baptist is listed with Pastor Bro. Aaron Terlecki, phone (615) 441-4951, and email atfollowhard@gmail.com. Misión Hispana de Dickson is a separate row at the same street address, with no pastor or phone. | Kept off the site. The published phone and email stay the clerk’s. A shared address is not enough to call the Hispanic congregation a Burns Baptist ministry. |
+| YouTube titles “Monday May Days” (May 2021 only) and untitled Monday uploads in May 2025 and May 2026 | The name May Days appears on 2021 titles. Later May Mondays are not named. No description was available. | Kept off the site. A 2021 title is not a current yearly offering. |
+| BBC Team Kids listing scraped from a 2022 Facebook page | “Team Kids” Sundays 10:00–11:00 AM and Kids Connection Wednesdays 6:30–8:00 PM. | Kept off the site. The current church website does not use the name Team Kids, and it does not give Kids Connection an end time. |
