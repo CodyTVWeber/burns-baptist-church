@@ -1,0 +1,356 @@
+{
+  "tool": "setup-repo",
+  "mode": "standard",
+  "profile": "standard",
+  "features": [
+    "rules",
+    "git-hooks",
+    "claude-hooks",
+    "post-git-hook",
+    "agents-doc",
+    "skills",
+    "approval-gate",
+    "privacy"
+  ],
+  "hooks_via": "none",
+  "skills": "core",
+  "source_sha": "badda2844d55f5627fb2b024150269bb84e4f14b",
+  "files": {
+    ".claude/rules/agent-neutral-names.md": {
+      "hash": "9b8d0033e4ab51e47644a6ef76d41fe40ab1ef6217afd277df2f9def9928154b",
+      "source": "skills/setup-repo/assets/rules/agent-neutral-names.md"
+    },
+    ".claude/rules/agent-source.md": {
+      "hash": "ab49484a6ab96d36f8bc705f960377ff5156fd070f148f695a9dd6c2bdceeb7c",
+      "source": "skills/setup-repo/assets/rules/agent-source.md"
+    },
+    ".claude/rules/ai-files-telegraphic.md": {
+      "hash": "5ba023540b6405253e63f2a5bcb72594e4c50e6cea5ecf30636a09f3473566aa",
+      "source": "skills/setup-repo/assets/rules/ai-files-telegraphic.md"
+    },
+    ".claude/rules/ai-thinking-dense.md": {
+      "hash": "7308fec2ef026dc26f379d896d09471b0e269ada6a9c3b65348f1694dc66d0ab",
+      "source": "skills/setup-repo/assets/rules/ai-thinking-dense.md"
+    },
+    ".claude/rules/ban-comments.md": {
+      "hash": "b7dffbe30a8874cce736341161af827af09b3b033913a7bae8ac3e680db13606",
+      "source": "skills/setup-repo/assets/rules/ban-comments.md"
+    },
+    ".claude/rules/business-capability-structure.md": {
+      "hash": "7f90cedfd25d801f5e0206fa7d5da32c43904ecc0afa3f99c286e54fd67f4cdf",
+      "source": "skills/setup-repo/assets/rules/business-capability-structure.md"
+    },
+    ".claude/rules/clean-code.md": {
+      "hash": "e1e0b0b0ab6a2691c808a64872016631621e978e8db22fa7803e359706c00e24",
+      "source": "skills/setup-repo/assets/rules/clean-code.md"
+    },
+    ".claude/rules/commit-and-ship.md": {
+      "hash": "7d1d2fa95c95e29955cde4473bee6e6549e3d440c986358d79f49ca2a2a27888",
+      "source": "skills/setup-repo/assets/rules/commit-and-ship.md"
+    },
+    ".claude/rules/context-window.md": {
+      "hash": "594900186fd60cbdba97e96dfac5d181fc74180949dd3df7576e4aa5b1e44f7f",
+      "source": "skills/setup-repo/assets/rules/context-window.md"
+    },
+    ".claude/rules/conversation.md": {
+      "hash": "5588c71d8ae55a64297325bd289dad58ef8f489ad5e6fd913950e4e26b222fc4",
+      "source": "skills/setup-repo/assets/rules/conversation.md"
+    },
+    ".claude/rules/conversation/examples.md": {
+      "hash": "cf8887522bf8d59616af7934a913a3065caa1d16740c273fd8d24cda91745bad",
+      "source": "skills/setup-repo/assets/rules/conversation/examples.md"
+    },
+    ".claude/rules/conversation/external-system-writes.md": {
+      "hash": "57c5198f3a5438bb5b37077cc07cdbafb2bc17bc2660db249bd9e91293a7e756",
+      "source": "skills/setup-repo/assets/rules/conversation/external-system-writes.md"
+    },
+    ".claude/rules/conversation/reply-density.md": {
+      "hash": "20eb9361ecd9526a088c7bea8b76f4b468a6b08744176cc14fbbba7dfc1ef014",
+      "source": "skills/setup-repo/assets/rules/conversation/reply-density.md"
+    },
+    ".claude/rules/conversation/teaching-mode.md": {
+      "hash": "a26d9f4db82863c024574056d7984514313ada7a312a0a8c129220a47330525a",
+      "source": "skills/setup-repo/assets/rules/conversation/teaching-mode.md"
+    },
+    ".claude/rules/delegate-work.md": {
+      "hash": "c06ad0a354e1d972e28c525f610afa9e9d78f0e5894e4f623f95d55f937dd4ac",
+      "source": "skills/setup-repo/assets/rules/delegate-work.md"
+    },
+    ".claude/rules/deterministic-checks.md": {
+      "hash": "dbd9a336dbec483cbf9010e20d77b6a5591a7a8055dbab63df5b9f04190003f1",
+      "source": "skills/setup-repo/assets/rules/deterministic-checks.md"
+    },
+    ".claude/rules/docs-current-or-dated.md": {
+      "hash": "9b4c4e227072c44016916a3190a07ee075ad57318bab39701ba949b5eb4d2617",
+      "source": "skills/setup-repo/assets/rules/docs-current-or-dated.md"
+    },
+    ".claude/rules/frustration-fix-agent.md": {
+      "hash": "8676c06dcdb81782c0cefea8144ae7e0871e26c13ba5bdfe227bf3e1bdf9cfb4",
+      "source": "skills/setup-repo/assets/rules/frustration-fix-agent.md"
+    },
+    ".claude/rules/glossary-overloaded-terms.md": {
+      "hash": "cc230052eedfbf26e539f4857f8389fdf792b4a989f390b3e1af709908b7e719",
+      "source": "skills/setup-repo/assets/rules/glossary-overloaded-terms.md"
+    },
+    ".claude/rules/muscles-and-skeleton.md": {
+      "hash": "a4758712bcc6a40ff8a170f4a5e0ffe29f00f7c22dfe3b7918f2bac018465d68",
+      "source": "skills/setup-repo/assets/rules/muscles-and-skeleton.md"
+    },
+    ".claude/rules/research-latest-main.md": {
+      "hash": "e50494c0fe2053fc051afc6a04e726cb6f84f61da5cb557595e01570c167a828",
+      "source": "skills/setup-repo/assets/rules/research-latest-main.md"
+    },
+    ".claude/rules/scripting-languages.md": {
+      "hash": "9e7121cec1175304cf2f8d075f240809af75c145f3856c401b872ba09bbf029d",
+      "source": "skills/setup-repo/assets/rules/scripting-languages.md"
+    },
+    ".claude/rules/small-mrs.md": {
+      "hash": "70d6e3a611da9e7afe0c9e61271f41f2a44cd8505711dba05329f35b6ef27246",
+      "source": "skills/setup-repo/assets/rules/small-mrs.md"
+    },
+    "scripts/check-privacy.sh": {
+      "hash": "6472b980811d75c7d3e5bd4f29842d16118a8f3ab2abe6c1d5fc0167d07d39ea",
+      "source": "scripts/check-privacy.sh"
+    },
+    "scripts/clean-code/check-clean-code.sh": {
+      "hash": "9bd72b6fb0abdc89b755e34348b1e81c562f5a4023ebb186cfcc9e6688e9b448",
+      "source": "skills/setup-repo/assets/scripts/check-clean-code.sh"
+    },
+    "scripts/clean-code/check-mr-size-app.sh": {
+      "hash": "d96e036a8a98220e5ed14244ca9dd779508fd28a94f85e82b5a4093a8e5b7e4f",
+      "source": "skills/setup-repo/assets/scripts/check-mr-size-app.sh"
+    },
+    "scripts/clean-code/check-mr-size-docs.sh": {
+      "hash": "e8ee05a283ffc218732e9a7d5144559e96868db4d09c1418aa2d4632d84230fa",
+      "source": "skills/setup-repo/assets/scripts/check-mr-size-docs.sh"
+    },
+    "scripts/clean-code/check-mr-size-support.sh": {
+      "hash": "0104a6eeb93461fdd628acbbdc07c0e51bc11332bb5090e2d4f6ab43d509e3e4",
+      "source": "skills/setup-repo/assets/scripts/check-mr-size-support.sh"
+    },
+    "scripts/clean-code/check-mr-size.sh": {
+      "hash": "759686ae61da3179a005dab695f08e9da080a3cbdd52aed46a6cbc550c72de20",
+      "source": "skills/setup-repo/assets/scripts/check-mr-size.sh"
+    },
+    "scripts/clean-code/claude-pre-tool-guard.sh": {
+      "hash": "0e29e284dfd2e369cd334cfa8e7441c7f9337740212957a4dbe79083e728ea84",
+      "source": "skills/setup-repo/assets/scripts/claude-pre-tool-guard.sh"
+    },
+    "scripts/clean-code/cleancode/analysis.mjs": {
+      "hash": "61dc0a514612ed03e17befc6751734cb290a2bcdea5d50119dd02393ae38f50f",
+      "source": "skills/setup-repo/assets/scripts/cleancode/analysis.mjs"
+    },
+    "scripts/clean-code/cleancode/args.mjs": {
+      "hash": "71d574d1dc046e748e19eb80d3e001e34377ac9356bfc923a3de85a86c6ed495",
+      "source": "skills/setup-repo/assets/scripts/cleancode/args.mjs"
+    },
+    "scripts/clean-code/cleancode/catalog.mjs": {
+      "hash": "61c0dd89279199854501db959b4b7943e18318d1d565409d0d0a9d4020d04cc4",
+      "source": "skills/setup-repo/assets/scripts/cleancode/catalog.mjs"
+    },
+    "scripts/clean-code/cleancode/cli.mjs": {
+      "hash": "f03e8097966c2963ffadaebccb1c29c00faa1afdef0367f306dc9ddaf77201aa",
+      "source": "skills/setup-repo/assets/scripts/cleancode/cli.mjs"
+    },
+    "scripts/clean-code/cleancode/filetargets.mjs": {
+      "hash": "a09fb26b6da3b92265eafc8c181a42df211a29a4cc086df4c597fdfe7c39ee8c",
+      "source": "skills/setup-repo/assets/scripts/cleancode/filetargets.mjs"
+    },
+    "scripts/clean-code/cleancode/gitdiff.mjs": {
+      "hash": "9f3bc43f37c2adf6d6143f9ebcf19d74d271250ad04c3172b93ed597c3ea0993",
+      "source": "skills/setup-repo/assets/scripts/cleancode/gitdiff.mjs"
+    },
+    "scripts/clean-code/cleancode/headers_brace.mjs": {
+      "hash": "85fb1efa5d843563c6400777f246997ddcb2b888ca44fc6e8a4c12e499dadbe9",
+      "source": "skills/setup-repo/assets/scripts/cleancode/headers_brace.mjs"
+    },
+    "scripts/clean-code/cleancode/help.mjs": {
+      "hash": "72098795181a790f97bd8d3999b002ca611d0a18389f91970ecb639651989563",
+      "source": "skills/setup-repo/assets/scripts/cleancode/help.mjs"
+    },
+    "scripts/clean-code/cleancode/hooks.mjs": {
+      "hash": "a4ac759b6e921429a51d26bf921adb3b672f025b2e08616845150e3d157aa6eb",
+      "source": "skills/setup-repo/assets/scripts/cleancode/hooks.mjs"
+    },
+    "scripts/clean-code/cleancode/languages.mjs": {
+      "hash": "93deb2cbf5112553268b52b90a5e4e78db626464bfbca1bbd5ddbfc3ed1e8818",
+      "source": "skills/setup-repo/assets/scripts/cleancode/languages.mjs"
+    },
+    "scripts/clean-code/cleancode/lexer.mjs": {
+      "hash": "f37311b824eb460305c3f6472de25f2a4bbcce30f45a0c2cf9c462ea3f283d24",
+      "source": "skills/setup-repo/assets/scripts/cleancode/lexer.mjs"
+    },
+    "scripts/clean-code/cleancode/lexing.mjs": {
+      "hash": "36cf4dccdda319f3926be1188b9df74e7b44a8344c90a1e37dae269f6e0ab877",
+      "source": "skills/setup-repo/assets/scripts/cleancode/lexing.mjs"
+    },
+    "scripts/clean-code/cleancode/main.mjs": {
+      "hash": "65d5e337510101c7625f86aa6ddeec502173a0ada681072ac4a8c78e4491835a",
+      "source": "skills/setup-repo/assets/scripts/cleancode/main.mjs"
+    },
+    "scripts/clean-code/cleancode/model.mjs": {
+      "hash": "ace69989ecd417786440f18b5af506b8484301e824a316d6cef0d1e9b14e227e",
+      "source": "skills/setup-repo/assets/scripts/cleancode/model.mjs"
+    },
+    "scripts/clean-code/cleancode/params.mjs": {
+      "hash": "67ad13092f416d1c64eab223fd3f52f821304f8e063c90e6a6d9b9244e4bc8aa",
+      "source": "skills/setup-repo/assets/scripts/cleancode/params.mjs"
+    },
+    "scripts/clean-code/cleancode/parens.mjs": {
+      "hash": "f92b5e60b8bb7ba2d87c3e197f809128afd480ff046e339556234e793e4bd0c8",
+      "source": "skills/setup-repo/assets/scripts/cleancode/parens.mjs"
+    },
+    "scripts/clean-code/cleancode/report.mjs": {
+      "hash": "02b770120c820ecd4b7c21b7203d1746ff591049001e528baa260590db518763",
+      "source": "skills/setup-repo/assets/scripts/cleancode/report.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_comments.mjs": {
+      "hash": "d688e3e4e7b5beb8b502e2154c9d716473393c03017bc6caf56317c522e4b91a",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_comments.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_file.mjs": {
+      "hash": "d865956e76e017cbdfdd334821792aec1627866f168cba4edd3fd7c6caee65be",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_file.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_functions.mjs": {
+      "hash": "dd4ced0bdf364265349f8f3606a05b3003ab393199e2e3779d2099aad4d5013b",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_functions.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_guard.mjs": {
+      "hash": "1c6900df58c1699786214e95fa50b70591140fc7af61bf22c313e29ffc27a2e9",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_guard.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_lines.mjs": {
+      "hash": "8d6f1f09879af11a248835144dedb4702a90626563ed6c017fb8f5b2225cfd2a",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_lines.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_mutation.mjs": {
+      "hash": "893026e789ca2631b670c0fb89644e08db6b5b1d1a8b37b8849b41ad10ce40d4",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_mutation.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_order.mjs": {
+      "hash": "e6a9d83425d808af078ccb01286075f905b0a0ee53bde9a188413475fa9e0274",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_order.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_order_calls.mjs": {
+      "hash": "9c6dbbff5fd0d58766e7aeee9dd5c97d098c2e068707b5f1d667a6a55bd1b327",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_order_calls.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_order_span.mjs": {
+      "hash": "41df64b9ed5d38bfe70dda31f36786def8a0400183e30ac2b29fe1d934c5bb7c",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_order_span.mjs"
+    },
+    "scripts/clean-code/cleancode/rules_try.mjs": {
+      "hash": "402808a7b8c3bdea7f96bddd100db7ca6e89efd1c928fc5595f00863c1ab6219",
+      "source": "skills/setup-repo/assets/scripts/cleancode/rules_try.mjs"
+    },
+    "scripts/clean-code/cleancode/runner.mjs": {
+      "hash": "085b5d34c5781022366293d4abb2c88596a0f41fd79d2b0e675ebc24ffa968ae",
+      "source": "skills/setup-repo/assets/scripts/cleancode/runner.mjs"
+    },
+    "scripts/clean-code/cleancode/session.mjs": {
+      "hash": "7c5d423cf8daea9edd3c8503f8eef68925aa3d6e700678c435ead1b5317672c7",
+      "source": "skills/setup-repo/assets/scripts/cleancode/session.mjs"
+    },
+    "scripts/clean-code/cleancode/settings.mjs": {
+      "hash": "bfffeb10f9321649ce01ec826d43ed25ae3f974d4cde2f6c63a3c10154309c31",
+      "source": "skills/setup-repo/assets/scripts/cleancode/settings.mjs"
+    },
+    "scripts/clean-code/cleancode/struct_brace.mjs": {
+      "hash": "81bcf5285a6d1d906eccc0f5d7d67b7973e82f018fb59cb86110d023a1537b3d",
+      "source": "skills/setup-repo/assets/scripts/cleancode/struct_brace.mjs"
+    },
+    "scripts/clean-code/cleancode/struct_python.mjs": {
+      "hash": "480ce22d1deb17614153b928887ec32e06656cfadbdbc9a95daf3e24e75acc80",
+      "source": "skills/setup-repo/assets/scripts/cleancode/struct_python.mjs"
+    },
+    "scripts/clean-code/cleancode/struct_ruby.mjs": {
+      "hash": "812042964fa881c025127ef9e1cbf22e13e966d39bffb341fef21be427b22db9",
+      "source": "skills/setup-repo/assets/scripts/cleancode/struct_ruby.mjs"
+    },
+    "scripts/clean-code/cleancode/struct_shell.mjs": {
+      "hash": "be5170c414b617d51253b5d1b2c39caaf9b1b1919311f165046e6201eeb3055e",
+      "source": "skills/setup-repo/assets/scripts/cleancode/struct_shell.mjs"
+    },
+    "scripts/clean-code/cleancode/structure.mjs": {
+      "hash": "7ac8d46a3cb2b836c9b5bf90d1a2245cffd044fef022cf8502f734b903086e39",
+      "source": "skills/setup-repo/assets/scripts/cleancode/structure.mjs"
+    },
+    "scripts/clean-code/cleancode/targets.mjs": {
+      "hash": "87db839d17b925cdd31b4fb8e3de421de9965c05189baa693326f7d2f7c2ddcb",
+      "source": "skills/setup-repo/assets/scripts/cleancode/targets.mjs"
+    },
+    "scripts/clean-code/cleancode/walker_brace.mjs": {
+      "hash": "917dd1168e00208512f7f1bc60d0117c4fd2858c0881692c5a467637c131bc00",
+      "source": "skills/setup-repo/assets/scripts/cleancode/walker_brace.mjs"
+    },
+    "scripts/clean-code/code-quality-check.sh": {
+      "hash": "0f2ddd8eeca1a0babfd357fe9a4b1f444ca55ba817369304c3c66d8a1bdfdaef",
+      "source": "skills/setup-repo/assets/scripts/code-quality-check.sh"
+    },
+    "scripts/clean-code/git-scan.sh": {
+      "hash": "ce8c859bf768ae8fa83a4cd20ace0c865487c1bccc1c618f080fd903a1c83a6a",
+      "source": "skills/setup-repo/assets/scripts/git-scan.sh"
+    },
+    "scripts/clean-code/gitscan/cli.mjs": {
+      "hash": "fe4d9c63d08539b433097e5f88771690023fdcc57ed4d0063a5432a7d9be8a9c",
+      "source": "skills/setup-repo/assets/scripts/gitscan/cli.mjs"
+    },
+    "scripts/clean-code/gitscan/dynamic.mjs": {
+      "hash": "c129beb5466aa2a3380009f44bcecb5fab388f5a5b7d7a0aa5ff840947302648",
+      "source": "skills/setup-repo/assets/scripts/gitscan/dynamic.mjs"
+    },
+    "scripts/clean-code/gitscan/forge.mjs": {
+      "hash": "66c8572a240c37efb8d138911b3995e8c031c3a01434a9a16c75fe6bbfdc88a3",
+      "source": "skills/setup-repo/assets/scripts/gitscan/forge.mjs"
+    },
+    "scripts/clean-code/gitscan/gitparse.mjs": {
+      "hash": "83928a3e0c89954803328a1ffd67acae8716137b04080503e0faff9af7a5a033",
+      "source": "skills/setup-repo/assets/scripts/gitscan/gitparse.mjs"
+    },
+    "scripts/clean-code/gitscan/main.mjs": {
+      "hash": "65d5e337510101c7625f86aa6ddeec502173a0ada681072ac4a8c78e4491835a",
+      "source": "skills/setup-repo/assets/scripts/gitscan/main.mjs"
+    },
+    "scripts/clean-code/gitscan/scanner.mjs": {
+      "hash": "0c7080d60b746fce5d083f351da5f591397f11c7cde707c1cce7e68bf7a918d9",
+      "source": "skills/setup-repo/assets/scripts/gitscan/scanner.mjs"
+    },
+    "scripts/clean-code/gitscan/shellsyntax.mjs": {
+      "hash": "bb563b8b7fdfa0bb4fb60e3a5c96d31b237b3d3843740082555bcad6c07d05f2",
+      "source": "skills/setup-repo/assets/scripts/gitscan/shellsyntax.mjs"
+    },
+    "scripts/clean-code/gitscan/subcommands.mjs": {
+      "hash": "8a65c1a756cf00d1986991f504b7373f1101d81a9b5aca9def3a276d6f2cf513",
+      "source": "skills/setup-repo/assets/scripts/gitscan/subcommands.mjs"
+    },
+    "scripts/clean-code/gitscan/tags.mjs": {
+      "hash": "abcb568ef111cd6277b3a511031381a4f0f1344aedf07fcc4b83d0df28b252e7",
+      "source": "skills/setup-repo/assets/scripts/gitscan/tags.mjs"
+    },
+    "scripts/clean-code/lint-docs.sh": {
+      "hash": "73105b8cdfd0aa2bdf68b7d8d098deb5c51e7b0a328cbbbd22c3716fe6dd4983",
+      "source": "skills/setup-repo/assets/scripts/lint-docs.sh"
+    },
+    "scripts/clean-code/post-git-check.sh": {
+      "hash": "aa612846f87387e763b4dbd836a0ef631ebc08d1441702b727ad72e7d5b8e49e",
+      "source": "skills/setup-repo/assets/scripts/post-git-check.sh"
+    },
+    "scripts/clean-code/pre-push-gate.sh": {
+      "hash": "3f2a8336746b830fc7d383e76f6fcaa04c861b88fd7e0372d8f96095462b7e4e",
+      "source": "skills/setup-repo/assets/scripts/pre-push-gate.sh"
+    },
+    "scripts/guard/git-approval-guard.sh": {
+      "hash": "9be467ae617296e744938df9df46b0030317c990e9ca33bde376719c5b4a5928",
+      "source": "scripts/guard/git-approval-guard.sh"
+    },
+    "scripts/install-hooks.sh": {
+      "hash": "c99bbbe1404a30ac1879829025647d5c2e226fd6229b239461d765a8ec518f2d",
+      "source": "scripts/install-hooks.sh"
+    },
+    "scripts/lint/check-languages.sh": {
+      "hash": "749e2efda9cc2b1ad6af3ed45316f486237ac12531ef7e68533fd2e22c9d9186",
+      "source": "scripts/lint/check-languages.sh"
+    }
+  }
+}
