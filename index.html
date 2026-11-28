@@ -154,19 +154,81 @@
       </div>
     </section>
 
-    <section class="section">
+    <!--
+      Social feeds setup (free):
+      1. YouTube Data API v3 key: paste into data-youtube-api-key.
+         Create at https://console.cloud.google.com/ — enable “YouTube Data API v3”,
+         restrict the key to this GitHub Pages site.
+      2. Meta App ID: paste into data-facebook-app-id.
+         Create a free app at https://developers.facebook.com/ — add this site’s
+         domain under the app’s Facebook Login / Site URL settings.
+      Channel ID and Facebook page URL are already set for Burns Baptist Church.
+    -->
+    <section
+      class="section feeds-section"
+      id="watch"
+      data-youtube-api-key=""
+      data-youtube-channel-id="UCYEED3mai1PJ6yWgzKr-k9g"
+      data-youtube-uploads-playlist="UUYEED3mai1PJ6yWgzKr-k9g"
+      data-facebook-app-id=""
+      data-facebook-page-url="https://www.facebook.com/p/Burns-Baptist-Church-61585569585817/"
+    >
       <div class="wrap">
         <h2 class="section-title">Watch and Follow</h2>
         <p class="lede">Sunday and Wednesday services are recorded on YouTube. News, announcements, and schedule changes are posted on Facebook.</p>
-        <div class="card-grid cols-2">
-          <a class="connect-card" href="https://www.youtube.com/@burnsbaptistchurch-burnstn1436" target="_blank" rel="noopener noreferrer">
-            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 12.2s0-3.2-.4-4.6a3 3 0 0 0-2.1-2.1C18.9 5 12 5 12 5s-6.9 0-8.5.5a3 3 0 0 0-2.1 2.1C1 9 1 12.2 1 12.2s0 3.2.4 4.6a3 3 0 0 0 2.1 2.1C5.1 19.4 12 19.4 12 19.4s6.9 0 8.5-.5a3 3 0 0 0 2.1-2.1c.4-1.4.4-4.6.4-4.6zM9.8 15.5v-6.6l6.2 3.3z"/></svg>YouTube</h3>
-            <p>Watch Sunday and Wednesday services.<span class="sr-only"> (opens in a new tab)</span></p>
-          </a>
-          <a class="connect-card" href="https://www.facebook.com/p/Burns-Baptist-Church-61585569585817/" target="_blank" rel="noopener noreferrer">
-            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></svg>Facebook</h3>
-            <p>News, announcements, and schedule changes.<span class="sr-only"> (opens in a new tab)</span></p>
-          </a>
+        <div class="feeds-layout">
+          <div class="feed-block">
+            <h3 class="feed-heading">Recent recordings</h3>
+            <div id="youtube-feed" class="yt-feed">
+              <div class="yt-fallback">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/videoseries?list=UUYEED3mai1PJ6yWgzKr-k9g"
+                  title="Recent recordings from Burns Baptist Church"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+            <p class="feed-more"><a href="https://www.youtube.com/@burnsbaptistchurch-burnstn1436" target="_blank" rel="noopener noreferrer">More recordings on YouTube<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+          <div class="feed-block">
+            <h3 class="feed-heading">On Facebook</h3>
+            <div class="fb-feed">
+              <a
+                class="fb-cta"
+                href="https://www.facebook.com/p/Burns-Baptist-Church-61585569585817/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="fb-cta-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></svg>
+                </span>
+                <span class="fb-cta-copy">
+                  <strong>Burns Baptist Church</strong>
+                  <span>News, announcements, and schedule changes.</span>
+                </span>
+                <span class="btn">Open Facebook</span>
+                <span class="sr-only"> (opens in a new tab)</span>
+              </a>
+              <div
+                class="fb-page"
+                aria-hidden="true"
+                data-href="https://www.facebook.com/p/Burns-Baptist-Church-61585569585817/"
+                data-tabs="timeline"
+                data-width="340"
+                data-height="280"
+                data-small-header="true"
+                data-adapt-container-width="true"
+                data-hide-cover="true"
+                data-show-facepile="false"
+              >
+                <blockquote cite="https://www.facebook.com/p/Burns-Baptist-Church-61585569585817/" class="fb-xfbml-parse-ignore">
+                  <a href="https://www.facebook.com/p/Burns-Baptist-Church-61585569585817/" target="_blank" rel="noopener noreferrer">Burns Baptist Church on Facebook<span class="sr-only"> (opens in a new tab)</span></a>
+                </blockquote>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -242,6 +304,7 @@
       </div>
     </div>
   </footer>
+  <div id="fb-root"></div>
   <script src="js/site.js"></script>
 </body>
 </html>

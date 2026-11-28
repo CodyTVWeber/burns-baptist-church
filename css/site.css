@@ -690,54 +690,246 @@ p {
   margin-bottom: 0.3rem;
 }
 
-.connect-card {
+.feeds-section {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.feeds-layout {
+  display: grid;
+  gap: 1.15rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 800px) {
+  .feeds-layout {
+    grid-template-columns: minmax(0, 1.35fr) minmax(15.5rem, 0.7fr);
+    gap: 1.4rem;
+    align-items: start;
+  }
+}
+
+.feed-heading {
+  font-family: var(--body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+.feed-more {
+  font-size: 0.9rem;
+  margin: 0.55rem 0 0;
+}
+
+.yt-feed {
+  min-width: 0;
+}
+
+.yt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.yt-card {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-width: 0;
   text-decoration: none;
   color: var(--ink);
-  border: 1px solid #ddd;
-  border-radius: 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
   overflow: hidden;
   background: #fff;
 }
 
-.connect-card:hover {
+.yt-card:hover {
   border-color: var(--bbc);
   color: var(--ink);
 }
 
-.connect-card h3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.55rem;
-  margin: 0;
+.yt-media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #111;
+}
+
+.yt-media img,
+.yt-media iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.yt-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  pointer-events: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.28));
+}
+
+.yt-play svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.45));
+}
+
+.yt-badge {
+  position: absolute;
+  top: 0.35rem;
+  left: 0.35rem;
+  z-index: 1;
   background: var(--bbc);
   color: #fff;
-  font-family: var(--body);
-  font-size: 0.95rem;
+  font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0.7rem 0.75rem;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.2rem;
 }
 
-.connect-card:hover h3 {
-  background: var(--bbc-dark);
+.yt-card h4 {
+  font-family: var(--body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0.4rem 0.45rem 0.45rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.connect-card svg {
-  width: 1.25rem;
-  height: 1.25rem;
+.yt-fallback iframe {
   display: block;
+  width: 100%;
+  height: 11.5rem;
+  border: 0;
+  border-radius: 0.4rem;
+  background: #111;
+}
+
+.fb-feed {
+  position: relative;
+  min-width: 0;
+  max-width: 21.25rem;
+  overflow: hidden;
+}
+
+.fb-feed.is-plugin-ready {
+  overflow: visible;
+}
+
+.fb-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.65rem;
+  padding: 0.85rem 0.9rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.fb-cta:hover {
+  border-color: var(--bbc);
+  color: var(--ink);
+}
+
+.fb-cta-icon {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 0.45rem;
+  background: var(--bbc);
+  color: #fff;
+  display: grid;
+  place-items: center;
   flex: 0 0 auto;
 }
 
-.connect-card p {
+.fb-cta-icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+}
+
+.fb-cta-copy {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.fb-cta-copy strong {
+  font-size: 1rem;
+}
+
+.fb-cta-copy span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.fb-cta .btn {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0.45rem 0.9rem;
+}
+
+.fb-cta:hover .btn {
+  background: var(--bbc-dark);
+  border-color: var(--bbc-dark);
+  color: #fff;
+}
+
+.fb-page {
+  width: 100%;
+}
+
+.fb-page:not(.is-ready) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 340px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.fb-feed.is-plugin-ready .fb-cta {
+  display: none;
+}
+
+.fb-page.is-unavailable iframe,
+.fb-page.is-unavailable > span {
+  display: none;
+}
+
+.fb-xfbml-parse-ignore {
+  display: block;
   margin: 0;
-  text-align: center;
-  padding: 1rem 0.9rem 1.1rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: #fff;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 800px) {
+  .feeds-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .mission-hero h1 {
